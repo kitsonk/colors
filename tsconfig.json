@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "module": "amd",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noLib": true,
+    "pretty": true,
+    "sourceMap": true,
+    "target": "esnext"
+  },
+  "files": [
+    "./lib/lib.deno_runtime.d.ts",
+    "./main.ts"
+  ]
+}
