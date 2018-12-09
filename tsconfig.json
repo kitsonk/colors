@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "baseUrl": ".",
     "checkJs": true,
     "module": "amd",
     "moduleResolution": "node",
@@ -8,7 +9,11 @@
     "noLib": true,
     "pretty": true,
     "sourceMap": true,
-    "target": "esnext"
+    "target": "esnext",
+    "paths": {
+      "http://*": ["../../.deno/deps/http/*"],
+      "https://*": ["../../.deno/deps/https/*"]
+    }
   },
   "files": [
     "./lib/lib.deno_runtime.d.ts",

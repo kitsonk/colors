@@ -1,5 +1,7 @@
 # colors
 
+[![][tci badge]][tci link]
+
 Is a basic console color library intended for [Deno](https://deno.land/). It is
 inspired by packages like [chalk](https://www.npmjs.com/package/chalk) and
 [colors](https://www.npmjs.com/package/colors) on npm.
@@ -28,3 +30,6 @@ console.log(color.bgBlue.red.bold("Hello world!"));
 Licensed under the [MIT License](./LICENSE).
 
 Copyright 2018 — Kitson P. Kelly — All Rights Reserved.
+
+[tci badge]: https://travis-ci.com/kitsonk/colors.svg?branch=master
+[tci link]: https://travis-ci.com/kitsonk/colors

@@ -1,4 +1,4 @@
-import { assertEqual, test } from "https://deno.land/x/testing/testing.ts";
+import { assertEqual, test } from "https://deno.land/x/testing/testing";
 import { color } from "./main";
 
 test(function singleColor() {
